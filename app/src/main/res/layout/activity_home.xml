@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/testToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="@android:dimen/thumbnail_height" />
+
+    <com.evolve.backdroplibrary.BackdropContainer
+        android:id="@+id/backdropcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:closeIcon="@drawable/ic_close"
+        app:duration="500"
+        app:menuIcon="@drawable/ic_menu">
+
+        <include layout="@layout/backlayer" />
+
+        <include layout="@layout/frontlayer" />
+
+
+    </com.evolve.backdroplibrary.BackdropContainer>
+
+
+</LinearLayout>

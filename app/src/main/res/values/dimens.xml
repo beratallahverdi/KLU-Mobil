@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sneek_height">200</dimen>
+    <dimen name="ViewAreaPadding">48dp</dimen>
+    <dimen name="ViewAreaMargin">12dp</dimen>
+    <dimen name="FloatingButtonMargin">24dp</dimen>
+    <dimen name="cv_icerik">13dp</dimen>
+    <dimen name="cv_baslik">16dp</dimen>
+    <dimen name="cv_kayit">10dp</dimen>
+    <dimen name="bottom_navigation_padding">8dp</dimen>
+    <dimen name="bottom_navigation_corner_radius">28dp</dimen>
+</resources>

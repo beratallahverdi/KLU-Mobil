@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KLU Mobil</string>
+    <string name="static_ogrenci_no_key">OGRENCI_NO</string>
+    <string name="static_ogrenci_json_key">OGRENCI_JSON</string>
+    <string name="sign_in">Giriş</string>
+    <string name="sign_out">Çıkış</string>
+    <string name="register">Kayıt</string>
+    <string name="email">Eposta</string>
+    <string name="name">Ad</string>
+    <string name="surname">Soyad</string>
+    <string name="family">Aile</string>
+    <string name="cellphone">Telefon</string>
+    <string name="password">Şifre</string>
+    <string name="again">Tekrar</string>
+    <string name="message">Mesaj</string>
+    <string name="call">Arama</string>
+    <string name="disconnect">Bağlantıyı Kes</string>
+    <string name="copyright">Kırklareli Üniversitesi Yazılım Mühendisliği 2020\nDamla KUŞKU &amp; Ertuğrul Berat ALLAHVERDİ</string>
+    <string name="notification">Bildirim</string>
+
+    <string name="settings">Ayarlarım</string>
+    <string name="my_information">Bilgilerim</string>
+    <string name="my_family">Ailem</string>
+    <string name="info_ad">Adı Soyadı</string>
+    <string name="info_iletisim">İletişim</string>
+    <string name="info_program">Fakülte / Bölüm / Program</string>
+    <string name="info_dogum">Doğum Tarihi</string>
+    <string name="info_cinsiyet">Cinsiyet</string>
+    <string name="info_kimlik">Kimlik Numarası / Uyruk</string>
+    <string name="KLUHaberler">http://www.klu.edu.tr/Sayfa_Gruplari/84-haberler-ve-etkinlikler.klu</string>
+    <string name="static_sharedprefs">PREFS</string>
+    <string name="static_ad">KIMLIK_AD</string>
+    <string name="static_soyad">KIMLIK_SOYAD</string>
+    <string name="static_program">PROGRAM</string>
+    <string name="static_fakulte">FAKULTE</string>
+    <string name="static_tip">TIP</string>
+    <string name="static_unvan">UNVAN</string>
+    <string name="static_kimlik">TC_KIMLIK_NO</string>
+    <string name="static_sicil">SICIL_NO</string>
+    <string name="static_json">JSON</string>
+</resources>

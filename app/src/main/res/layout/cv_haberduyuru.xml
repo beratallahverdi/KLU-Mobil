@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@color/KirklareliUniversitesiColor"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:background="@color/BottomAppBarPrimaryColor"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cv_gorsel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@color/primaryColor"
+                android:scaleType="fitStart" />
+
+            <LinearLayout
+                android:id="@+id/cv_link"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/primaryColor"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cv_logo"
+                    android:layout_width="48sp"
+                    android:layout_height="48sp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <TextView
+                    android:id="@+id/cv_baslik"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Haber Başlık"
+                    android:textColor="@color/colorTextP"
+                    android:textSize="@dimen/cv_baslik"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayıt Tarihi"
+                android:textColor="#FF444444"
+                android:textSize="@dimen/cv_kayit" />
+
+            <TextView
+                android:id="@+id/cv_detay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haber İçerik"
+                android:textColor="@color/colorTextP"
+                android:textSize="@dimen/cv_icerik" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

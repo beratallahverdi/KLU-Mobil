@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#FFFFFF</color>
+    <color name="primaryLightColor">#37588c</color>
+    <color name="primaryDarkColor">#003a6a</color>
+    <color name="secondaryColor">#FF004B85</color>
+    <color name="secondaryLightColor">#7ba5d4</color>
+    <color name="secondaryDarkColor">#4a76a3</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="colorAccent">#003A6A</color>
+    <color name="BottomAppBarPrimaryColor">#acbeff</color>
+    <color name="BottomAppBarSecondaryColor">#FFFFFF</color>
+    <color name="KirklareliUniversitesiColor">#FF004B85</color>
+    <color name="colorPrimary">#acbeff</color>
+    <color name="colorPrimaryDark">#003a6a</color>
+    <color name="colorPrimaryLight">#37588c</color>
+    <color name="colorSecondary">#124b74</color>
+    <color name="colorSecondaryDark">#4a76a3</color>
+    <color name="colorSecondaryLight">#7ba5d4</color>
+    <color name="colorTextP">#FF000000</color>
+    <color name="colorTextS">#ffffff</color>
+    <color name="BottomNavigationPrimaryColor">#acbeff</color>
+</resources>
